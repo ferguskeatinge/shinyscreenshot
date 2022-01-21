@@ -11,7 +11,9 @@ var shinyscreenshot = {
         allowTaint: true,
         foreignObjectRendering: true,
         logging : false,
-        useCORS : true
+        useCORS : true,
+        height : window.outerHeight + window.innerHeight,
+        width : window.outerWidth + window.innerWidth
       }
     ).then(function(canvas) {
       var img = canvas.toDataURL();
