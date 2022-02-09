@@ -10,7 +10,7 @@ var shinyscreenshot = {
         scale : params.scale,
         allowTaint: true,
         foreignObjectRendering: true,
-        logging : false,
+        logging : true,
         useCORS : true,
         // height : window.outerHeight * window.innerHeight,
         // width : window.outerWidth * window.innerWidth
