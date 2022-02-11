@@ -14,8 +14,8 @@ var shinyscreenshot = {
         useCORS : true,
         // height : window.outerHeight * window.innerHeight,
         // width : window.outerWidth * window.innerWidth
-        height : window.outerHeight * window.devicePixelRatio,
-        width : window.outerWidth * window.devicePixelRatio
+        height : document.documentElement.clientHeight * window.devicePixelRatio,
+        width : document.documentElement.clientWidth * window.devicePixelRatio
       }
     ).then(function(canvas) {
       var img = canvas.toDataURL();
